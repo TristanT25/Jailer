@@ -87,11 +87,11 @@ def printPass():
 key = ''.join(random.choice(string.digits) for i in range(6))
 print(key)
 # Send through sms
-#message = client.messages.create(
-  #body=key,
-  #from_='+18649713941',
-  #to='+17852266513'
-#)
+message = client.messages.create(
+  body=key,
+  from_='+18649713941',
+  to='+17852266513'
+)
 
 #-----------------UI COMPONENT
 #-----------------MENU
